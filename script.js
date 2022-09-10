@@ -58,10 +58,3 @@ function operate(a,b) {
         document.getElementById('result').value = result;
     }
 }
-
-function newCalc(a) {
-    if (insideScreen.includes('+'||'-'||'x'||'/')) {
-        insideScreen === a;
-        operate();
-    }
-}
