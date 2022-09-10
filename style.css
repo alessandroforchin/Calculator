@@ -1,0 +1,80 @@
+body {
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.container {
+    width: 260px;
+    height: auto;
+    background-color: rgb(43, 43, 43);
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.operator-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.operator-container input {
+    background-color: orange;
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid orange;
+    border-radius: 10%;   
+}
+
+.operator-container input:hover {
+    background-color: rgb(250, 183, 58);
+    color: white;
+    border: 1px solid rgb(225, 148, 3);
+    transition: all 0.5s;
+}
+
+input {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.display-box {
+    height: 30px;
+    width: 220px;
+    font-size: large;
+}
+
+.number-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.number-container input,
+#calc-btn, 
+#clear-btn {
+    background-color: rgb(121, 121, 121);
+    border: 1px solid rgb(121, 121, 121);
+}
+
+.number-container input:hover,
+#calc-btn:hover,
+#clear-btn:hover {
+    background-color: rgb(191, 191, 191);
+    border: 1px solid rgb(191, 191, 191);
+    color: white;
+    transition: all 0.5s;
+}
+
+#result {
+    color: white;
+}
